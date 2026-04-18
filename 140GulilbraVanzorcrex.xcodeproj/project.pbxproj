@@ -3,33 +3,77 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		303AB2FE2F943FA8003AE63D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303AB2F42F943FA8003AE63D /* Assets.xcassets */; };
+		303AB3002F943FA8003AE63D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303AB2F82F943FA8003AE63D /* LaunchScreen.storyboard */; };
+		303AB3012F943FA8003AE63D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303AB2FA2F943FA8003AE63D /* Main.storyboard */; };
+		303AB3022F943FA8003AE63D /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2CE2F943FA8003AE63D /* AppExternalLink.swift */; };
+		303AB3032F943FA8003AE63D /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2D02F943FA8003AE63D /* AppStorage.swift */; };
+		303AB3042F943FA8003AE63D /* FlickCatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2D32F943FA8003AE63D /* FlickCatchView.swift */; };
+		303AB3052F943FA8003AE63D /* FlickCatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2D42F943FA8003AE63D /* FlickCatchViewModel.swift */; };
+		303AB3062F943FA8003AE63D /* GlowFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2D62F943FA8003AE63D /* GlowFlowView.swift */; };
+		303AB3072F943FA8003AE63D /* GlowFlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2D72F943FA8003AE63D /* GlowFlowViewModel.swift */; };
+		303AB3082F943FA8003AE63D /* RingTwirlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2D92F943FA8003AE63D /* RingTwirlView.swift */; };
+		303AB3092F943FA8003AE63D /* RingTwirlViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2DA2F943FA8003AE63D /* RingTwirlViewModel.swift */; };
+		303AB30A2F943FA8003AE63D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2DD2F943FA8003AE63D /* HomeView.swift */; };
+		303AB30B2F943FA8003AE63D /* CarnivalHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2DF2F943FA8003AE63D /* CarnivalHubView.swift */; };
+		303AB30C2F943FA8003AE63D /* MainTabShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2E02F943FA8003AE63D /* MainTabShellView.swift */; };
+		303AB30D2F943FA8003AE63D /* ProgressHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2E12F943FA8003AE63D /* ProgressHubView.swift */; };
+		303AB30E2F943FA8003AE63D /* SettingsHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2E22F943FA8003AE63D /* SettingsHubView.swift */; };
+		303AB30F2F943FA8003AE63D /* TrophiesHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2E32F943FA8003AE63D /* TrophiesHubView.swift */; };
+		303AB3102F943FA8003AE63D /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2E52F943FA8003AE63D /* OnboardingFlowView.swift */; };
+		303AB3112F943FA8003AE63D /* SessionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2E72F943FA8003AE63D /* SessionModels.swift */; };
+		303AB3122F943FA8003AE63D /* SessionResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2E82F943FA8003AE63D /* SessionResultView.swift */; };
+		303AB3132F943FA8003AE63D /* CarnivalTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2EB2F943FA8003AE63D /* CarnivalTypography.swift */; };
+		303AB3142F943FA8003AE63D /* CarnivalPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2ED2F943FA8003AE63D /* CarnivalPageControl.swift */; };
+		303AB3152F943FA8003AE63D /* SkyAtmosphereBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2EE2F943FA8003AE63D /* SkyAtmosphereBackground.swift */; };
+		303AB3162F943FA8003AE63D /* StageLevelPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2EF2F943FA8003AE63D /* StageLevelPickerCell.swift */; };
+		303AB3172F943FA8003AE63D /* StarGlyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2F02F943FA8003AE63D /* StarGlyph.swift */; };
+		303AB3182F943FA8003AE63D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2F32F943FA8003AE63D /* AppDelegate.swift */; };
+		303AB3192F943FA8003AE63D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2F52F943FA8003AE63D /* ContentView.swift */; };
+		303AB31A2F943FA8003AE63D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2FB2F943FA8003AE63D /* SceneDelegate.swift */; };
+		303AB31B2F943FA8003AE63D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2FC2F943FA8003AE63D /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		1A64F78B82743E1FCE535300 /* Pods-140GulilbraVanzorcrex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-140GulilbraVanzorcrex.release.xcconfig"; path = "Target Support Files/Pods-140GulilbraVanzorcrex/Pods-140GulilbraVanzorcrex.release.xcconfig"; sourceTree = "<group>"; };
 		303AB1802F9375E7003AE63D /* 140GulilbraVanzorcrex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 140GulilbraVanzorcrex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		303AB2CE2F943FA8003AE63D /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
+		303AB2D02F943FA8003AE63D /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		303AB2D32F943FA8003AE63D /* FlickCatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickCatchView.swift; sourceTree = "<group>"; };
+		303AB2D42F943FA8003AE63D /* FlickCatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickCatchViewModel.swift; sourceTree = "<group>"; };
+		303AB2D62F943FA8003AE63D /* GlowFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowFlowView.swift; sourceTree = "<group>"; };
+		303AB2D72F943FA8003AE63D /* GlowFlowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowFlowViewModel.swift; sourceTree = "<group>"; };
+		303AB2D92F943FA8003AE63D /* RingTwirlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingTwirlView.swift; sourceTree = "<group>"; };
+		303AB2DA2F943FA8003AE63D /* RingTwirlViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingTwirlViewModel.swift; sourceTree = "<group>"; };
+		303AB2DD2F943FA8003AE63D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		303AB2DF2F943FA8003AE63D /* CarnivalHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalHubView.swift; sourceTree = "<group>"; };
+		303AB2E02F943FA8003AE63D /* MainTabShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabShellView.swift; sourceTree = "<group>"; };
+		303AB2E12F943FA8003AE63D /* ProgressHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHubView.swift; sourceTree = "<group>"; };
+		303AB2E22F943FA8003AE63D /* SettingsHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsHubView.swift; sourceTree = "<group>"; };
+		303AB2E32F943FA8003AE63D /* TrophiesHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophiesHubView.swift; sourceTree = "<group>"; };
+		303AB2E52F943FA8003AE63D /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		303AB2E72F943FA8003AE63D /* SessionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionModels.swift; sourceTree = "<group>"; };
+		303AB2E82F943FA8003AE63D /* SessionResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionResultView.swift; sourceTree = "<group>"; };
+		303AB2EB2F943FA8003AE63D /* CarnivalTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalTypography.swift; sourceTree = "<group>"; };
+		303AB2ED2F943FA8003AE63D /* CarnivalPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalPageControl.swift; sourceTree = "<group>"; };
+		303AB2EE2F943FA8003AE63D /* SkyAtmosphereBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyAtmosphereBackground.swift; sourceTree = "<group>"; };
+		303AB2EF2F943FA8003AE63D /* StageLevelPickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageLevelPickerCell.swift; sourceTree = "<group>"; };
+		303AB2F02F943FA8003AE63D /* StarGlyph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarGlyph.swift; sourceTree = "<group>"; };
+		303AB2F32F943FA8003AE63D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		303AB2F42F943FA8003AE63D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		303AB2F52F943FA8003AE63D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		303AB2F62F943FA8003AE63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303AB2F72F943FA8003AE63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		303AB2F92F943FA8003AE63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		303AB2FB2F943FA8003AE63D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		303AB2FC2F943FA8003AE63D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFC854888A3AD0D7152E1EEB /* Pods_140GulilbraVanzorcrex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_140GulilbraVanzorcrex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2C45513713D3B849D1C06B /* Pods-140GulilbraVanzorcrex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-140GulilbraVanzorcrex.debug.xcconfig"; path = "Target Support Files/Pods-140GulilbraVanzorcrex/Pods-140GulilbraVanzorcrex.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		303AB1922F9375E8003AE63D /* Exceptions for "140GulilbraVanzorcrex" folder in "140GulilbraVanzorcrex" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 303AB17F2F9375E7003AE63D /* 140GulilbraVanzorcrex */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		303AB1822F9375E7003AE63D /* 140GulilbraVanzorcrex */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				303AB1922F9375E8003AE63D /* Exceptions for "140GulilbraVanzorcrex" folder in "140GulilbraVanzorcrex" target */,
-			);
-			path = 140GulilbraVanzorcrex;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		303AB17D2F9375E7003AE63D /* Frameworks */ = {
@@ -45,8 +89,10 @@
 		303AB1772F9375E7003AE63D = {
 			isa = PBXGroup;
 			children = (
-				303AB1822F9375E7003AE63D /* 140GulilbraVanzorcrex */,
+				303AB2FD2F943FA8003AE63D /* 140GulilbraVanzorcrex */,
 				303AB1812F9375E7003AE63D /* Products */,
+				67C0F97E2E9612197425A91E /* Pods */,
+				FA6EFF0B58D1EFAA4F164011 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +104,188 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		303AB2CD2F943FA8003AE63D /* Design */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		303AB2CF2F943FA8003AE63D /* Legal */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2CE2F943FA8003AE63D /* AppExternalLink.swift */,
+			);
+			path = Legal;
+			sourceTree = "<group>";
+		};
+		303AB2D12F943FA8003AE63D /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2D02F943FA8003AE63D /* AppStorage.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		303AB2D22F943FA8003AE63D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2CD2F943FA8003AE63D /* Design */,
+				303AB2CF2F943FA8003AE63D /* Legal */,
+				303AB2D12F943FA8003AE63D /* Persistence */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		303AB2D52F943FA8003AE63D /* FlickCatch */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2D32F943FA8003AE63D /* FlickCatchView.swift */,
+				303AB2D42F943FA8003AE63D /* FlickCatchViewModel.swift */,
+			);
+			path = FlickCatch;
+			sourceTree = "<group>";
+		};
+		303AB2D82F943FA8003AE63D /* GlowFlow */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2D62F943FA8003AE63D /* GlowFlowView.swift */,
+				303AB2D72F943FA8003AE63D /* GlowFlowViewModel.swift */,
+			);
+			path = GlowFlow;
+			sourceTree = "<group>";
+		};
+		303AB2DB2F943FA8003AE63D /* RingTwirl */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2D92F943FA8003AE63D /* RingTwirlView.swift */,
+				303AB2DA2F943FA8003AE63D /* RingTwirlViewModel.swift */,
+			);
+			path = RingTwirl;
+			sourceTree = "<group>";
+		};
+		303AB2DC2F943FA8003AE63D /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2D52F943FA8003AE63D /* FlickCatch */,
+				303AB2D82F943FA8003AE63D /* GlowFlow */,
+				303AB2DB2F943FA8003AE63D /* RingTwirl */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		303AB2DE2F943FA8003AE63D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2DD2F943FA8003AE63D /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		303AB2E42F943FA8003AE63D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2DF2F943FA8003AE63D /* CarnivalHubView.swift */,
+				303AB2E02F943FA8003AE63D /* MainTabShellView.swift */,
+				303AB2E12F943FA8003AE63D /* ProgressHubView.swift */,
+				303AB2E22F943FA8003AE63D /* SettingsHubView.swift */,
+				303AB2E32F943FA8003AE63D /* TrophiesHubView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		303AB2E62F943FA8003AE63D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2E52F943FA8003AE63D /* OnboardingFlowView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		303AB2E92F943FA8003AE63D /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2E72F943FA8003AE63D /* SessionModels.swift */,
+				303AB2E82F943FA8003AE63D /* SessionResultView.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		303AB2EA2F943FA8003AE63D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2DC2F943FA8003AE63D /* Activities */,
+				303AB2DE2F943FA8003AE63D /* Home */,
+				303AB2E42F943FA8003AE63D /* Main */,
+				303AB2E62F943FA8003AE63D /* Onboarding */,
+				303AB2E92F943FA8003AE63D /* Result */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		303AB2EC2F943FA8003AE63D /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2EB2F943FA8003AE63D /* CarnivalTypography.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		303AB2F12F943FA8003AE63D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2ED2F943FA8003AE63D /* CarnivalPageControl.swift */,
+				303AB2EE2F943FA8003AE63D /* SkyAtmosphereBackground.swift */,
+				303AB2EF2F943FA8003AE63D /* StageLevelPickerCell.swift */,
+				303AB2F02F943FA8003AE63D /* StarGlyph.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		303AB2F22F943FA8003AE63D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2EC2F943FA8003AE63D /* ViewModifiers */,
+				303AB2F12F943FA8003AE63D /* Views */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		303AB2FD2F943FA8003AE63D /* 140GulilbraVanzorcrex */ = {
+			isa = PBXGroup;
+			children = (
+				303AB2D22F943FA8003AE63D /* Core */,
+				303AB2EA2F943FA8003AE63D /* Features */,
+				303AB2F22F943FA8003AE63D /* Shared */,
+				303AB2F32F943FA8003AE63D /* AppDelegate.swift */,
+				303AB2F42F943FA8003AE63D /* Assets.xcassets */,
+				303AB2F52F943FA8003AE63D /* ContentView.swift */,
+				303AB2F62F943FA8003AE63D /* Info.plist */,
+				303AB2F82F943FA8003AE63D /* LaunchScreen.storyboard */,
+				303AB2FA2F943FA8003AE63D /* Main.storyboard */,
+				303AB2FB2F943FA8003AE63D /* SceneDelegate.swift */,
+				303AB2FC2F943FA8003AE63D /* ViewController.swift */,
+			);
+			path = 140GulilbraVanzorcrex;
+			sourceTree = "<group>";
+		};
+		67C0F97E2E9612197425A91E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF2C45513713D3B849D1C06B /* Pods-140GulilbraVanzorcrex.debug.xcconfig */,
+				1A64F78B82743E1FCE535300 /* Pods-140GulilbraVanzorcrex.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA6EFF0B58D1EFAA4F164011 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFC854888A3AD0D7152E1EEB /* Pods_140GulilbraVanzorcrex.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 303AB1932F9375E8003AE63D /* Build configuration list for PBXNativeTarget "140GulilbraVanzorcrex" */;
 			buildPhases = (
+				BF07D949AEEAC14BD1D4D6A3 /* [CP] Check Pods Manifest.lock */,
 				303AB17C2F9375E7003AE63D /* Sources */,
 				303AB17D2F9375E7003AE63D /* Frameworks */,
 				303AB17E2F9375E7003AE63D /* Resources */,
@@ -73,12 +302,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				303AB1822F9375E7003AE63D /* 140GulilbraVanzorcrex */,
-			);
 			name = 140GulilbraVanzorcrex;
-			packageProductDependencies = (
-			);
 			productName = 140GulilbraVanzorcrex;
 			productReference = 303AB1802F9375E7003AE63D /* 140GulilbraVanzorcrex.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +323,7 @@
 				};
 			};
 			buildConfigurationList = 303AB17B2F9375E7003AE63D /* Build configuration list for PBXProject "140GulilbraVanzorcrex" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +331,6 @@
 				Base,
 			);
 			mainGroup = 303AB1772F9375E7003AE63D;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 303AB1812F9375E7003AE63D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +345,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303AB2FE2F943FA8003AE63D /* Assets.xcassets in Resources */,
+				303AB3002F943FA8003AE63D /* LaunchScreen.storyboard in Resources */,
+				303AB3012F943FA8003AE63D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF07D949AEEAC14BD1D4D6A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-140GulilbraVanzorcrex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		303AB17C2F9375E7003AE63D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303AB3022F943FA8003AE63D /* AppExternalLink.swift in Sources */,
+				303AB3032F943FA8003AE63D /* AppStorage.swift in Sources */,
+				303AB3042F943FA8003AE63D /* FlickCatchView.swift in Sources */,
+				303AB3052F943FA8003AE63D /* FlickCatchViewModel.swift in Sources */,
+				303AB3062F943FA8003AE63D /* GlowFlowView.swift in Sources */,
+				303AB3072F943FA8003AE63D /* GlowFlowViewModel.swift in Sources */,
+				303AB3082F943FA8003AE63D /* RingTwirlView.swift in Sources */,
+				303AB3092F943FA8003AE63D /* RingTwirlViewModel.swift in Sources */,
+				303AB30A2F943FA8003AE63D /* HomeView.swift in Sources */,
+				303AB30B2F943FA8003AE63D /* CarnivalHubView.swift in Sources */,
+				303AB30C2F943FA8003AE63D /* MainTabShellView.swift in Sources */,
+				303AB30D2F943FA8003AE63D /* ProgressHubView.swift in Sources */,
+				303AB30E2F943FA8003AE63D /* SettingsHubView.swift in Sources */,
+				303AB30F2F943FA8003AE63D /* TrophiesHubView.swift in Sources */,
+				303AB3102F943FA8003AE63D /* OnboardingFlowView.swift in Sources */,
+				303AB3112F943FA8003AE63D /* SessionModels.swift in Sources */,
+				303AB3122F943FA8003AE63D /* SessionResultView.swift in Sources */,
+				303AB3132F943FA8003AE63D /* CarnivalTypography.swift in Sources */,
+				303AB3142F943FA8003AE63D /* CarnivalPageControl.swift in Sources */,
+				303AB3152F943FA8003AE63D /* SkyAtmosphereBackground.swift in Sources */,
+				303AB3162F943FA8003AE63D /* StageLevelPickerCell.swift in Sources */,
+				303AB3172F943FA8003AE63D /* StarGlyph.swift in Sources */,
+				303AB3182F943FA8003AE63D /* AppDelegate.swift in Sources */,
+				303AB3192F943FA8003AE63D /* ContentView.swift in Sources */,
+				303AB31A2F943FA8003AE63D /* SceneDelegate.swift in Sources */,
+				303AB31B2F943FA8003AE63D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		303AB2F82F943FA8003AE63D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303AB2F72F943FA8003AE63D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		303AB2FA2F943FA8003AE63D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303AB2F92F943FA8003AE63D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		303AB1942F9375E8003AE63D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2C45513713D3B849D1C06B /* Pods-140GulilbraVanzorcrex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +444,38 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 140GulilbraVanzorcrex/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gulilbra Vanzorcrex";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-40GulilbraVanzorcrex";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bug.p9xf2rk7rz7n1lf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		303AB1952F9375E8003AE63D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A64F78B82743E1FCE535300 /* Pods-140GulilbraVanzorcrex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +483,32 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 140GulilbraVanzorcrex/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gulilbra Vanzorcrex";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-40GulilbraVanzorcrex";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bug.p9xf2rk7rz7n1lf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
