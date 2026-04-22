@@ -7,8 +7,8 @@ workflows:
         vars:
           XCODE_WORKSPACE: "140GulilbraVanzorcrex.xcworkspace"
           XCODE_SCHEME: "140GulilbraVanzorcrex"
-          BUNDLE_ID: "com.jon.fr0sttr3cksk9t4ngs"
-          APP_STORE_APP_ID: 6756367614
+          BUNDLE_ID: "com.bug.p9xf2rk7rz7n1lf"
+          APP_STORE_APP_ID: 6762447465
         xcode: latest
         cocoapods: 1.14.2
       scripts:
@@ -23,7 +23,7 @@ workflows:
             keychain initialize
         - name: Fetch signing files
           script: |
-            app-store-connect fetch-signing-files $BUNDLE_ID --type IOS_APP_STORE 
+            app-store-connect fetch-signing-files $BUNDLE_ID --type IOS_APP_STORE --create
         - name: Use system default keychain
           script: |
             keychain add-certificates
