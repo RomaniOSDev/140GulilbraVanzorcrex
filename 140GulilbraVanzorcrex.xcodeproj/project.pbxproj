@@ -36,6 +36,13 @@
 		303AB3192F943FA8003AE63D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2F52F943FA8003AE63D /* ContentView.swift */; };
 		303AB31A2F943FA8003AE63D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2FB2F943FA8003AE63D /* SceneDelegate.swift */; };
 		303AB31B2F943FA8003AE63D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2FC2F943FA8003AE63D /* ViewController.swift */; };
+		3732C2182F9912850090EB29 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 3732C2172F9912850090EB29 /* AppsFlyerLib-Static */; };
+		3732C21B2F9912990090EB29 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 3732C21A2F9912990090EB29 /* AlamofireDynamic */; };
+		3732C21F2F99133A0090EB29 /* GulibraVanzorcrexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732C21E2F9913310090EB29 /* GulibraVanzorcrexModel.swift */; };
+		3732C2212F9913640090EB29 /* GulibraVanzorcrexSetvices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732C2202F9913640090EB29 /* GulibraVanzorcrexSetvices.swift */; };
+		3732C2232F9913850090EB29 /* GulibraVanzorcrexManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732C2222F9913850090EB29 /* GulibraVanzorcrexManager.swift */; };
+		3732C2252F9913BD0090EB29 /* GulibraVanzorcrexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732C2242F9913BD0090EB29 /* GulibraVanzorcrexView.swift */; };
+		3732C2272F99140C0090EB29 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732C2262F99140C0090EB29 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +78,12 @@
 		303AB2F92F943FA8003AE63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		303AB2FB2F943FA8003AE63D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		303AB2FC2F943FA8003AE63D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3732C21C2F9912BC0090EB29 /* 140GulilbraVanzorcrex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 140GulilbraVanzorcrex.entitlements; sourceTree = "<group>"; };
+		3732C21E2F9913310090EB29 /* GulibraVanzorcrexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GulibraVanzorcrexModel.swift; sourceTree = "<group>"; };
+		3732C2202F9913640090EB29 /* GulibraVanzorcrexSetvices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GulibraVanzorcrexSetvices.swift; sourceTree = "<group>"; };
+		3732C2222F9913850090EB29 /* GulibraVanzorcrexManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GulibraVanzorcrexManager.swift; sourceTree = "<group>"; };
+		3732C2242F9913BD0090EB29 /* GulibraVanzorcrexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GulibraVanzorcrexView.swift; sourceTree = "<group>"; };
+		3732C2262F99140C0090EB29 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		AFC854888A3AD0D7152E1EEB /* Pods_140GulilbraVanzorcrex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_140GulilbraVanzorcrex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2C45513713D3B849D1C06B /* Pods-140GulilbraVanzorcrex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-140GulilbraVanzorcrex.debug.xcconfig"; path = "Target Support Files/Pods-140GulilbraVanzorcrex/Pods-140GulilbraVanzorcrex.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +93,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3732C2182F9912850090EB29 /* AppsFlyerLib-Static in Frameworks */,
+				3732C21B2F9912990090EB29 /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +229,7 @@
 		303AB2EA2F943FA8003AE63D /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				3732C21D2F99131D0090EB29 /* Services */,
 				303AB2DC2F943FA8003AE63D /* Activities */,
 				303AB2DE2F943FA8003AE63D /* Home */,
 				303AB2E42F943FA8003AE63D /* Main */,
@@ -238,6 +254,7 @@
 				303AB2EE2F943FA8003AE63D /* SkyAtmosphereBackground.swift */,
 				303AB2EF2F943FA8003AE63D /* StageLevelPickerCell.swift */,
 				303AB2F02F943FA8003AE63D /* StarGlyph.swift */,
+				3732C2262F99140C0090EB29 /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -254,6 +271,7 @@
 		303AB2FD2F943FA8003AE63D /* 140GulilbraVanzorcrex */ = {
 			isa = PBXGroup;
 			children = (
+				3732C21C2F9912BC0090EB29 /* 140GulilbraVanzorcrex.entitlements */,
 				303AB2D22F943FA8003AE63D /* Core */,
 				303AB2EA2F943FA8003AE63D /* Features */,
 				303AB2F22F943FA8003AE63D /* Shared */,
@@ -267,6 +285,17 @@
 				303AB2FC2F943FA8003AE63D /* ViewController.swift */,
 			);
 			path = 140GulilbraVanzorcrex;
+			sourceTree = "<group>";
+		};
+		3732C21D2F99131D0090EB29 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3732C21E2F9913310090EB29 /* GulibraVanzorcrexModel.swift */,
+				3732C2202F9913640090EB29 /* GulibraVanzorcrexSetvices.swift */,
+				3732C2222F9913850090EB29 /* GulibraVanzorcrexManager.swift */,
+				3732C2242F9913BD0090EB29 /* GulibraVanzorcrexView.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		67C0F97E2E9612197425A91E /* Pods */ = {
@@ -331,6 +360,10 @@
 				Base,
 			);
 			mainGroup = 303AB1772F9375E7003AE63D;
+			packageReferences = (
+				3732C2162F9912850090EB29 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+				3732C2192F9912990090EB29 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 303AB1812F9375E7003AE63D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -394,7 +427,11 @@
 				303AB30A2F943FA8003AE63D /* HomeView.swift in Sources */,
 				303AB30B2F943FA8003AE63D /* CarnivalHubView.swift in Sources */,
 				303AB30C2F943FA8003AE63D /* MainTabShellView.swift in Sources */,
+				3732C2232F9913850090EB29 /* GulibraVanzorcrexManager.swift in Sources */,
 				303AB30D2F943FA8003AE63D /* ProgressHubView.swift in Sources */,
+				3732C2212F9913640090EB29 /* GulibraVanzorcrexSetvices.swift in Sources */,
+				3732C21F2F99133A0090EB29 /* GulibraVanzorcrexModel.swift in Sources */,
+				3732C2252F9913BD0090EB29 /* GulibraVanzorcrexView.swift in Sources */,
 				303AB30E2F943FA8003AE63D /* SettingsHubView.swift in Sources */,
 				303AB30F2F943FA8003AE63D /* TrophiesHubView.swift in Sources */,
 				303AB3102F943FA8003AE63D /* OnboardingFlowView.swift in Sources */,
@@ -407,6 +444,7 @@
 				303AB3172F943FA8003AE63D /* StarGlyph.swift in Sources */,
 				303AB3182F943FA8003AE63D /* AppDelegate.swift in Sources */,
 				303AB3192F943FA8003AE63D /* ContentView.swift in Sources */,
+				3732C2272F99140C0090EB29 /* MainView.swift in Sources */,
 				303AB31A2F943FA8003AE63D /* SceneDelegate.swift in Sources */,
 				303AB31B2F943FA8003AE63D /* ViewController.swift in Sources */,
 			);
@@ -440,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 140GulilbraVanzorcrex/140GulilbraVanzorcrex.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -456,7 +495,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bug.p9xf2rk7rz7n1lf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -479,6 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 140GulilbraVanzorcrex/140GulilbraVanzorcrex.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -495,7 +535,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bug.p9xf2rk7rz7n1lf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -653,6 +693,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3732C2162F9912850090EB29 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.18.0;
+			};
+		};
+		3732C2192F9912990090EB29 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3732C2172F9912850090EB29 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3732C2162F9912850090EB29 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		3732C21A2F9912990090EB29 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3732C2192F9912990090EB29 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 303AB1782F9375E7003AE63D /* Project object */;
 }

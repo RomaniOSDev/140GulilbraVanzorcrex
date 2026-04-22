@@ -7,7 +7,7 @@ workflows:
         vars:
           XCODE_WORKSPACE: "140GulilbraVanzorcrex.xcworkspace"
           XCODE_SCHEME: "140GulilbraVanzorcrex"
-          BUNDLE_ID: "com.bug.p9xf2rk7rz7n1lf"
+          BUNDLE_ID: "com.jon.fr0sttr3cksk9t4ngs"
           APP_STORE_APP_ID: 6756367614
         xcode: latest
         cocoapods: 1.14.2

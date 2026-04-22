@@ -11,10 +11,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil
+    ) -> Bool {
+        GulibraVanzorcrexUpdateManager.shared.initApp(application: application, window: UIWindow()) { _ in }
         return true
+    }
+
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        DispatchQueue.main.async {
+            GulibraVanzorcrexUpdateManager.shared.GulibraVanzorcrexUpdateManagerRegisterToken(deviceToken: deviceToken)
+        }
     }
 
     // MARK: UISceneSession Lifecycle
