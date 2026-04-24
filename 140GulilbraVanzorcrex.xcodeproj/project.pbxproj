@@ -472,7 +472,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 140GulilbraVanzorcrex/140GulilbraVanzorcrex.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 140GulilbraVanzorcrex/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Gulilbra Vanzorcrex";
@@ -512,7 +512,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 140GulilbraVanzorcrex/140GulilbraVanzorcrex.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 140GulilbraVanzorcrex/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Gulilbra Vanzorcrex";
