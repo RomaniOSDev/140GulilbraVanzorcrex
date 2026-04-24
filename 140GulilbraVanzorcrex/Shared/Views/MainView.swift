@@ -22,6 +22,13 @@ struct GulibraVanzorcrexMainView: View {
             }
         }
         .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 15) {
+                if self.requestNotifications {
+                    self.somethingWentWrong = false
+                    self.requestNotifications = false
+                }
+            }
+
             let monitor = NWPathMonitor()
             monitor.pathUpdateHandler = { path in
                 if path.status != .satisfied {

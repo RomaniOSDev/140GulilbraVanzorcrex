@@ -119,13 +119,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		303AB2CD2F943FA8003AE63D /* Design */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Design;
-			sourceTree = "<group>";
-		};
 		303AB2CF2F943FA8003AE63D /* Legal */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +138,6 @@
 		303AB2D22F943FA8003AE63D /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				303AB2CD2F943FA8003AE63D /* Design */,
 				303AB2CF2F943FA8003AE63D /* Legal */,
 				303AB2D12F943FA8003AE63D /* Persistence */,
 			);

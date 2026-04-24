@@ -10,8 +10,18 @@ import SwiftUI
             let debugLocal = Int.random(in: 1...100)
             print("appsFl succes ->: \(debugLocal)")
             
-            let rawData   = try! JSONSerialization.data(withJSONObject: conversionInfo, options: .fragmentsAllowed)
-            let rawString = String(data: rawData, encoding: .utf8) ?? "{}"
+            let rawString: String
+            do {
+                let rawData = try JSONSerialization.data(withJSONObject: conversionInfo, options: .fragmentsAllowed)
+                rawString = String(data: rawData, encoding: .utf8) ?? "{}"
+            } catch {
+                rawString = "{}"
+                sendLog(
+                    step: "LogStep1",
+                    message: "conversion serialization failed -> \(error.localizedDescription)",
+                    data: String(describing: conversionInfo)
+                )
+            }
             
             let finalJson = """
         {
