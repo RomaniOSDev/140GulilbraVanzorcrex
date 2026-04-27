@@ -36,6 +36,7 @@
 		303AB3192F943FA8003AE63D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2F52F943FA8003AE63D /* ContentView.swift */; };
 		303AB31A2F943FA8003AE63D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2FB2F943FA8003AE63D /* SceneDelegate.swift */; };
 		303AB31B2F943FA8003AE63D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AB2FC2F943FA8003AE63D /* ViewController.swift */; };
+		30D282902F9F6CAC008D5BDC /* AlamofireDynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 3732C21A2F9912990090EB29 /* AlamofireDynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		3732C2182F9912850090EB29 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 3732C2172F9912850090EB29 /* AppsFlyerLib-Static */; };
 		3732C21B2F9912990090EB29 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 3732C21A2F9912990090EB29 /* AlamofireDynamic */; };
 		3732C21F2F99133A0090EB29 /* GulibraVanzorcrexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732C21E2F9913310090EB29 /* GulibraVanzorcrexModel.swift */; };
@@ -44,6 +45,20 @@
 		3732C2252F9913BD0090EB29 /* GulibraVanzorcrexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732C2242F9913BD0090EB29 /* GulibraVanzorcrexView.swift */; };
 		3732C2272F99140C0090EB29 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732C2262F99140C0090EB29 /* MainView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30D282912F9F6CAC008D5BDC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				30D282902F9F6CAC008D5BDC /* AlamofireDynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1A64F78B82743E1FCE535300 /* Pods-140GulilbraVanzorcrex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-140GulilbraVanzorcrex.release.xcconfig"; path = "Target Support Files/Pods-140GulilbraVanzorcrex/Pods-140GulilbraVanzorcrex.release.xcconfig"; sourceTree = "<group>"; };
@@ -318,6 +333,7 @@
 				303AB17C2F9375E7003AE63D /* Sources */,
 				303AB17D2F9375E7003AE63D /* Frameworks */,
 				303AB17E2F9375E7003AE63D /* Resources */,
+				30D282912F9F6CAC008D5BDC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -472,7 +488,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 140GulilbraVanzorcrex/140GulilbraVanzorcrex.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 140GulilbraVanzorcrex/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Gulilbra Vanzorcrex";
@@ -512,7 +528,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 140GulilbraVanzorcrex/140GulilbraVanzorcrex.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 140GulilbraVanzorcrex/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Gulilbra Vanzorcrex";
